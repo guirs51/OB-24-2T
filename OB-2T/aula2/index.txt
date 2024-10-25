@@ -1,0 +1,74 @@
+1
+
+class pecas
+/ nome
+/ tamanho 
+/ ano
+/ preço 
+
+class cliente 
+/ nome completo 
+/ data de nascimento 
+/ cpf
+/ país
+/ estado
+/ cidade 
+
+class venda 
+/ nome do produto 
+/ codigo do produto 
+/ comprador 
+/ valor do produto 
+/ valor do frete
+
+2 
+
+class sesoes 
+/ filme 
+/ horario
+/ sala 
+/ quantidades de assento
+
+
+class reserva
+/ filme 
+/ valor do filme 
+/ assentos ocupado
+/ horario 
+
+class relatorio
+/ reservas feita
+/ filmes ainda em cartaz 
+/ salas ocupada 
+/ quantidade de ingressos vendido
+/ faturamento  
+
+3
+
+class paciente 
+/ nome 
+/ cpf
+/ idade 
+/ historico medico
+/ diagnostico 
+/ alergia
+
+class medico 
+/ nome 
+/ turno 
+/ consultada agendadas 
+/ especialidade
+
+class internacões 
+
+4
+
+class condominio {  
+/ morador {/ nome, /telefone, /numero do apartamento/}
+/ quantidade de ape 
+/ aluguel 
+/quantidade de morador 
+}
+
+class serviço {
+}
