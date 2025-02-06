@@ -196,11 +196,11 @@ class HistoricoDeLucros {
 
 //Allied
 
-const danielCF = new Pessoa("Daniel Park", "Seul", "Prepesctiva Lenda", 18, "Segunda Geração", "Vivo")
+const danielCF = new Pessoa("Daniel Park", "Seul", "Cantidado a Lenda", 18, "Segunda Geração", "Vivo")
 const zack = new Pessoa("Zack Lee", "Seul", "Boxeador de Ferro", 18, "Segunda Geração", "Vivo")
 const jay = new Pessoa("Jay", "Seul", "nâo indentificado", "não indentificado", "Segunda Geração", "Vivo")
 const vasco = new Pessoa("Vasco", "Seul", "heroi", 18, "Segunda Geração", "Vivo")
-const hobin = new Pessoa("Jin Hobin", "Seul", "Reis dos Ceus", "não indentificado", "Segunda Geração", "Vivo")
+const hobin = new Pessoa("Jin Hobin", "Seul", "Rei dos Ceus", "não indentificado", "Segunda Geração", "Vivo")
 const hudson = new Pessoa("Hundson Hyung","Ansan", "Sol de Ansan", 19, "Segunda Geração", "Vivo")
 const danielLitte = new Pessoa("Daniel Park", "Seul", "Obra-Prima", 18, "Segunda Geração", "Vivo")
  
@@ -211,21 +211,6 @@ allied.adicionarMembro(jay)
 allied.adicionarMembro(vasco)
 allied.adicionarMembro(hobin)
 allied.adicionarMembro(hudson)
-
-//Ciclo dos Seis
-
-const kawk = new Pessoa("kwank jichang", "Seul", "Antigo Rei de Seul", "não indentificado", "Primeira Geração", "Morto")
-const matee = new Pessoa("Maate so", "Ansan", "Rei De Ansan", "não indentificado", "Primeira Geração", "Vivo")
-const seog = new Pessoa("Seogbejin", "Daegu", "Fortaleza De Ferro", "não indentificado", "Primeira Geração", "Vivo")
-const seok = new Pessoa("Seokjin", "Cheliong", "Rei de Cheliong", "não indentificado", "Primeira Geração", "Morto")
-const nagayon = new Pessoa("Nagayon", "Incheon", "Rei Meia Boca", "não indentificado", "Primeira Geração", "Vivo")
-
-const CicloSeis = new Organizacao("Ciclos dos Seis", null, "Coreia do Sul")
-CicloSeis.adicionarMembro(kawk)
-CicloSeis.adicionarMembro(matee)
-CicloSeis.adicionarMembro(seog)
-CicloSeis.adicionarMembro(seok)
-CicloSeis.adicionarMembro(nagayon)
 
 //Works 
 
@@ -260,7 +245,7 @@ bigDeal.adicionarMembro(sinu)
 
 //Punhos de Gapryong
 
-const gapryon = new Pessoa("Kim Gapryong", "Seul", "não  indentificado", "não indentificado", "Geração Zero", "Morto")
+const gapryon = new Pessoa("Kim Gapryong", "Seul", "Lenda da Geração Zero", "não indentificado", "Geração Zero", "Morto")
 const baek = new Pessoa("baekho", "Seul", "nâo indentificado", "não indentificado", "Geração Zero", "Morto")
 
 const punhosKIm = new Organizacao("Punhos de Gapryong", gapryon, "Toda korea")
@@ -303,7 +288,7 @@ const gooXZack = new Relacoes(hajun, zack, "Bom", "de acordo com as informaçõe
 const familia = new Relacoes(elDiablo, yamazaki, "Neutro", "EL diablo é parente distante, e desconhecido, dos. isso o torna uma possivel ameaça")
 const famila2 = new Relacoes(kown, baek, "Bom", "kown tae é filho do falecido beakho")
 const famila3 = new Relacoes(jake, gapryon, "Ruim", "jake é filho do falecido gapryong. filho mais novo")
-const WorkesXBigdel = new Relacoes(works, bigDeal, "Neutro", "Tiveram problemas passados, mas fizeram uma uniao para caçar o oni branco")
+const workesXBigdel = new Relacoes(works, bigDeal, "Neutro", "Tiveram problemas passados, mas fizeram uma uniao para caçar o oni branco")
 const gunXdaniel = new Relacoes(danielLitte, gun, "Otimo", "Treino o danile por tempo, são mestre e aluno mas tem relação de irmão. e possivel parentesco familiar")
 
 
@@ -334,7 +319,7 @@ servico.adicionarFuncionario(gerenteKIm)
 const servico2 = new Servico(pedido2)
 servico2.adicionarFuncionario(gerenteKIm)
 servico2.adicionarFuncionario(goddog)
-console.log(servico2.funcionariosNesseServico)
+//console.log(servico2.funcionariosNesseServico)
 
 
 //Comissão
@@ -358,13 +343,11 @@ const lucro2 = new Lucro(servico2)
 const historicoDeComissoes = new HistoricoDeComissoes()
 historicoDeComissoes.adcionarComissao(comissao)
 historicoDeComissoes.adcionarComissao(comissao2)
-console.log(historicoDeComissoes.comissoes)
+//console.log(historicoDeComissoes.comissoes)
 
 //Historico de lucros
 
 const lucros = new HistoricoDeLucros()
 lucros.adiconarLucros(lucro)
 lucros.adiconarLucros(lucro2)
-console.log(lucros)
-
-console.log(servico2)
+//console.log(lucros)
